@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./App.css";
 
 let globalID = 0;
 
@@ -19,7 +20,7 @@ function App() {
   }
 
   return (
-    <div>
+    <div className="container">
       <h1>Best To Do App Ever</h1>
 
       <form onSubmit={createTodo}>
